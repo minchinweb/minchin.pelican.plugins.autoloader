@@ -16,3 +16,4 @@ releaser:
             - wheel
             - semantic-version
         pypi:
+            - semantic-version

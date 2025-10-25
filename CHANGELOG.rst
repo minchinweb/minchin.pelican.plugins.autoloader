@@ -1,6 +1,9 @@
 AutoLoader Changelog
 ====================
 
+1.2.2 -- 2025-10-24
+-------------------
+
 - **bug**: don't include extra top level directories in build artifact. See
   `Issue #1
   <https://github.com/minchinweb/minchin.pelican.plugins.autoloader/issues/1>`_.
