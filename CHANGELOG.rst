@@ -1,6 +1,11 @@
 AutoLoader Changelog
 ====================
 
+- **bug**: don't include extra top level directories in build artifact. See
+  `Issue #1
+  <https://github.com/minchinweb/minchin.pelican.plugins.autoloader/issues/1>`_.
+- **support**: swap from ``setup.py`` to ``pyproject.toml``
+
 1.2.1 -- 2023-08-03
 -------------------
 
