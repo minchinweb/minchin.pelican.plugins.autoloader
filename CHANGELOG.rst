@@ -1,6 +1,9 @@
 AutoLoader Changelog
 ====================
 
+1.2.3 -- 2025-11-03
+-------------------
+
 - **bug**: don't break on valid PEP440 versions (e.g. ``4.11.0.post0``). See
   `Issue #4`_.
 - **support**: add (limited) test suite, using ``pytest``. Available as an

@@ -10,7 +10,7 @@ except ImportError:
 try:
     import pytest
 except ImportError:
-    pass
+    print("[WARN] pytest not installed.")
 
 
 @task
