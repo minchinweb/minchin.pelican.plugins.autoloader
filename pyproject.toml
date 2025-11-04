@@ -48,7 +48,7 @@ maintainers = [
 ]
 dependencies = [
     "pelican",
-    "semantic_version",
+    "packaging",
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*", ]
@@ -95,6 +95,7 @@ test = [
     # 'pycodestyle',
     # 'check-manifest'
     "pytest",
+    # https://pypi.org/project/pytest-xdist/
 ]
 dev = [
     "markdown",

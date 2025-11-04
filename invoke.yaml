@@ -7,7 +7,7 @@ releaser:
     source: minchin
     changelog: CHANGELOG.rst
     version: minchin/pelican/plugins/autoloader.py
-    test_command: pytest
+    test_command: pytest -q --tb no --no-summary
     version_bump: none
     extra_packages:
         test:

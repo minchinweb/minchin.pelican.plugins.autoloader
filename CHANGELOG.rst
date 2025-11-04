@@ -1,12 +1,16 @@
 AutoLoader Changelog
 ====================
 
+- **bug**: don't break on valid PEP440 versions (e.g. ``4.11.0.post0``). See
+  `Issue #4`_.
+- **support**: add (limited) test suite, using ``pytest``. Available as an
+  *invoke* command: ``invoke run-tests``
+
 1.2.2 -- 2025-10-24
 -------------------
 
 - **bug**: don't include extra top level directories in build artifact. See
-  `Issue #1
-  <https://github.com/minchinweb/minchin.pelican.plugins.autoloader/issues/1>`_.
+  `Issue #1`_.
 - **support**: swap from ``setup.py`` to ``pyproject.toml``
 
 1.2.1 -- 2023-08-03
@@ -44,3 +48,5 @@ AutoLoader Changelog
 - **support**: first release to PyPI under `minchin.pelican.plugins.autoloader`_
 
 .. _minchin.pelican.plugins.autoloader: https://pypi.org/project/minchin.pelican.plugins.autoloader/
+.. _Issue #1: https://github.com/minchinweb/minchin.pelican.plugins.autoloader/issues/1
+.. _Issue #4: https://github.com/minchinweb/minchin.pelican.plugins.autoloader/issues/4
