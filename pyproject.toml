@@ -94,6 +94,7 @@ test = [
     # 'pydocstyle',
     # 'pycodestyle',
     # 'check-manifest'
+    "pytest",
 ]
 dev = [
     "markdown",
@@ -123,3 +124,8 @@ force_sort_within_sections = true
 known_pelican = "pelican"
 known_first_party = "minchin"
 sections = "FUTURE,STDLIB,THIRDPARTY,PELICAN,FIRSTPARTY,LOCALFOLDER"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]

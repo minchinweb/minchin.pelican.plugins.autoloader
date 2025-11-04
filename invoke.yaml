@@ -3,11 +3,11 @@ releaser:
     pypi_name: minchin.pelican.plugins.autoloader
     here: .
     docs: none
-    test: test
+    test: minchin/pelican/plugins/autoloader_tests
     source: minchin
     changelog: CHANGELOG.rst
     version: minchin/pelican/plugins/autoloader.py
-    test_command: none
+    test_command: pytest
     version_bump: none
     extra_packages:
         test:
