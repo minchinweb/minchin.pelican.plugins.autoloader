@@ -1,6 +1,8 @@
 AutoLoader Changelog
 ====================
 
+1.2.4 -- 2025-11-14
+-------------------
 
 - **bug**: don't try to load our own tests as a Pelican plugin.
 
