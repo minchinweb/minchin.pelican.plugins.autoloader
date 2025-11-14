@@ -24,6 +24,7 @@ DEFAULT_NAMESPACE_LIST = [
 DEFAULT_PLUGIN_BLACKLIST = [
     "pelican.plugins._utils",
     "pelican.plugins.signals",
+    "minchin.pelican.plugins.autoloader_tests",  # our own tests
 ]
 
 logger = logging.getLogger(__name__)
